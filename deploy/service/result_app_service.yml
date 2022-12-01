@@ -3,11 +3,10 @@ kind: Service
 metadata:
   name: result-app
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - targetPort: 80 
     port: 80
-    nodePort: 30005
 
   selector:
      app: result-app

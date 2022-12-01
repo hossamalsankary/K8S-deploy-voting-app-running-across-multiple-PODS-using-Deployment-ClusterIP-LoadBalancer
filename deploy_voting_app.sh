@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 #run service
 
 echo '------------ deploy postgress ---------'
@@ -17,13 +17,13 @@ echo '------------ deploy result ---------'
 kubectl create -f ./deply/result_app_deply.yml
 
 echo '------------ deploy redis  services  -------'
-kubectl create -f ./db/redis_services.yml 
+kubectl create -f ./service/redis_services.yml 
 
 echo '------------ deploy postgress  services  -------'
-kubectl create -f ./db/postgres_service.yml
+kubectl create -f ./service/postgres_service.yml
 
 echo '------------ deploy  result services  -------'
-kubectl create -f ./result/result_app_service.yml 
+kubectl create -f ./service/result_app_service.yml 
 
 echo '------------ deploy  voting services  -------'
-kubectl create -f ./voting/voing_app_service.yml 
+kubectl create -f ./service/voing_app_service.yml 
