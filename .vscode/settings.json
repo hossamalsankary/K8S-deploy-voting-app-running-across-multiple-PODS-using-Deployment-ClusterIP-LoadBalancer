@@ -1,0 +1,10 @@
+{
+    "yaml.schemas": {
+        "kubernetes": "*.yaml",
+        "https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/v1.22.4-standalone-strict/all.json": [
+            "file:///home/hoosam/linuxnotes/kubernetes/voteing_app.yml",
+            "file:///home/hoosam/linuxnotes/kubernetes/result_app_service.yml",
+            "file:///home/hoosam/linuxnotes/kubernetes/result/result_app_service.yml"
+        ]
+    }
+}
