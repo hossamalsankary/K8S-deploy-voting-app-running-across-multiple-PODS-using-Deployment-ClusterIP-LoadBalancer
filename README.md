@@ -8,9 +8,9 @@ Getting started
 
 ### prerequisite
 
-####### - AWS account 
-####### - Install eksctl
-####### - Install kubectl
+##### - AWS account 
+##### - Install eksctl
+##### - Install kubectl
 
 
 ### run 
